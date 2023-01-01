@@ -113,8 +113,8 @@ nav{
 
 div{
     padding: 20px;
-    width: 250px;
-    /* margin: 5px; */
+    width: 220px;
+    margin: 1px;
     /* height: 500px; */
     display: flex;
     flex-direction: column;
