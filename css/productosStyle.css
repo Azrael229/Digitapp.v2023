@@ -71,7 +71,7 @@ nav{
 
 
 .main{
-    width: 95%;
+    width: 85%;
     margin:auto;
     /* height: calc(100vh - 80px); */
     background: #121f3d; 
@@ -81,7 +81,7 @@ nav{
 
 .aside{
     /* background:#141532; */
-    width: 20%;
+    width: 30%;
     /* height: 780px; */
     /* padding: 1.5%;  */
     /* box-shadow: 5px 5px 5px;   */
@@ -95,7 +95,7 @@ nav{
 
 .section{
     
-    width:80%;
+    width:70%;
     display: flex;
     /* justify-content: space-between ; */
    
@@ -113,8 +113,8 @@ nav{
 
 div{
     padding: 20px;
-    width: 230px;
-    margin: 5px;
+    width: 300px;
+    /* margin: 5px; */
     /* height: 500px; */
     display: flex;
     flex-direction: column;
@@ -138,7 +138,7 @@ hr{
 
 
 form{
-    font-size: 14px;
+    font-size: 16px;
     color: #d1cfcf5e;
 
 }
@@ -151,7 +151,7 @@ textarea{
     /* border-radius: 5px; */
     outline: none;
     background:  rgba(5, 5, 5, 0.1); 
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.571);   
 }
 
@@ -168,8 +168,8 @@ input{
 
     /* border-bottom: 1px solid; */
     /* margin:left; */
-    height: 20px;
-    /* font-size: 14px; */
+    height: 30px;
+    font-size: 16px;
     /* border-bottom:1px solid #00eaff; */
     /* border-radius: 5px; */
     /* box-shadow: 1px 1px 1px; */
@@ -189,6 +189,10 @@ select{
     outline: none;
     color: #151515;
     display: block;
+    height: 30px;
+    font-size: 16px;
+
+
 }
 
 
