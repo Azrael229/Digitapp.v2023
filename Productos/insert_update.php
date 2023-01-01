@@ -18,7 +18,7 @@ $image_name = $_FILES["imagen"]["name"];
 $image_type = $_FILES["imagen"]["type"];
 $image_tmp = $_FILES["imagen"]["tmp_name"];
 
-$carpeta_destino = $_SERVER["DOCUMENT_ROOT"]."/Digitap.v2023/img/";
+$carpeta_destino = $_SERVER["DOCUMENT_ROOT"]."/Digitapp.v2023/img/";
 move_uploaded_file($_FILES["imagen"]["tmp_name"],$carpeta_destino.$image_name);
 
 
