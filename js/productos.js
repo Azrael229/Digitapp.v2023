@@ -46,7 +46,7 @@ var aRelojes = [
     },
 ];
 
-let tarjetas = document.getElementById("tarjetas_productos");
+let tarjetas = document.getElementById("area_tarjetas_productos");
 
 aRelojes.map(item =>{
 

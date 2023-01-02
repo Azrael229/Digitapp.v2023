@@ -90,5 +90,16 @@ nav{
 }
 
 
+div{
+    border: 1px solid salmon;
+    display: flex;
+    flex-flow: row wrap;
+}
+.cards{
+    background: cornsilk;
+    width:200px;
+    height: 250px;
+    margin: 10px;
 
+}
 
