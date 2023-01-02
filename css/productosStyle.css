@@ -17,15 +17,11 @@ body{
 
 
 nav{
-    /* margin-bottom: 0.5%; */
-     
-     /* height: 70px; */
-     align-items: center;
-     display: flex;
+    align-items: center;
+    display: flex;
     flex-flow: row wrap;
-     justify-content: space-around;
-     background-color: rgb(31, 25, 40);
-     /* box-shadow: 5px 5px 5px;     */
+    justify-content: space-around;
+    background-color: rgb(31, 25, 40);
 }
 
 
@@ -74,37 +70,23 @@ nav{
 .main{
     width: 85%;
     margin:auto;
-    /* height: calc(100vh - 80px); */
     background: #121f3d; 
     display:flex;  
 }
 
 
-.aside{
-    /* background:#141532; */
+.aside{  
     width: 30%;
-    /* height: 780px; */
-    /* padding: 1.5%;  */
-    /* box-shadow: 5px 5px 5px;   */
-    
     display: flex;
     flex-direction:column;
-    
     border-top: 1px solid chartreuse;
 }
 
 
-.section{
-    
+.section{ 
     width:70%;
     display: flex;
     flex-flow: row wrap;
-
-    /* justify-content: space-between ; */
-   
-    /* box-shadow: 5px 5px 5px;  */
-    /* background:#192e5d;
-    height: 780px;   */
 }
 
 .form{

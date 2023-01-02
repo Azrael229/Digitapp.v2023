@@ -17,14 +17,11 @@ body{
 
 
 nav{
-    /* margin-bottom: 0.5%; */
-     
-     height: 70px;
-     align-items: center;
-     display: flex;
-     justify-content: space-around;
-     background-color: rgb(31, 25, 40);
-     /* box-shadow: 5px 5px 5px;     */
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: rgb(31, 25, 40);
 }
 
 
@@ -71,44 +68,27 @@ nav{
 
 
 .main{
-    width: 1580px;
+    width: 85%;
     margin:auto;
-    height: calc(100vh - 80px);
     background: #121f3d; 
-    display:flex;  
+    display:flex; 
 }
 
 
 .aside{
-    /* background:#141532; */
-    width: 20%;
-    /* height: 780px; */
-    padding: 1.5%; 
-    /* box-shadow: 5px 5px 5px;   */
-    margin: 0.5%;
+    width: 30%;
     display: flex;
     flex-direction:column;
-    
     border-top: 1px solid chartreuse;
 }
 
 
 .section{
-    margin: 0.5%;
-    padding: 1%; 
-    width:75%;
-    /* box-shadow: 5px 5px 5px;  */
-    /* background:#192e5d;
-    height: 780px;   */
+    width:70%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 
-.footer{
-    height: 80px;
-     align-items: center;
-     display: flex;
-     justify-content: space-around;
-     background-color: rgb(31, 25, 40);
-}
 
 
