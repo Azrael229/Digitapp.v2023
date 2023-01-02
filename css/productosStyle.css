@@ -19,9 +19,10 @@ body{
 nav{
     /* margin-bottom: 0.5%; */
      
-     height: 70px;
+     /* height: 70px; */
      align-items: center;
      display: flex;
+    flex-flow: row wrap;
      justify-content: space-around;
      background-color: rgb(31, 25, 40);
      /* box-shadow: 5px 5px 5px;     */
@@ -97,6 +98,8 @@ nav{
     
     width:70%;
     display: flex;
+    flex-flow: row wrap;
+
     /* justify-content: space-between ; */
    
     /* box-shadow: 5px 5px 5px;  */
@@ -115,13 +118,21 @@ div{
     padding: 20px;
     width: 220px;
     margin: 1px;
-    /* height: 500px; */
+    
     display: flex;
     flex-direction: column;
     border-right: 1px solid gray;
-    /* justify-content: space-between; */
-    /* flex-flow: row wrap; */
+    
 }
+.tarjetas{
+    width: 150px;
+    border: 1px solid snow;
+    height: 220px;
+    background-color: azure;
+    margin: 10px;
+
+}
+
 /* .footer{
     height: 80px;
      align-items: center;
