@@ -91,15 +91,20 @@ nav{
 
 
 div{
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     display: flex;
     flex-flow: row wrap;
+    background: #cccccc;
 }
 .cards{
-    background: cornsilk;
+    padding: 10px;
+    flex-direction:column;
+    background: rgb(255, 255, 255);
     width:200px;
-    height: 250px;
+    height: 300px;
     margin: 10px;
-
+    box-shadow: 5px 5px 5px;   
+    border-radius: 5px;
+    font-size: 14px;
 }
 
