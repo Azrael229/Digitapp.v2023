@@ -1,21 +1,18 @@
 <?php
-
     require ("conexion.php");
 
-    $resp = $conexion->query(
+    $dato = file_get_contents("php://input");
 
-        "SELECT  *
-        FROM productos"
-        
-    ) or die(print($conexion->errorInfo()));
+    $pdo = $conexion->prepare("SELECT * FROM productos WHERE id_producto = :ID");
 
+    $pdo->bindParam(":ID", $dato);
+    $pdo->execute() or die(print($pdo->errorInfo()));
 
     $data = [];
 
-
-    while($item = $resp->fetch(PDO::FETCH_OBJ)){
+    while($item = $pdo->fetch(PDO::FETCH_OBJ)){
         $data[] = [
-       //--variable--/--base de datos--
+            //--variable--/--base de datos--
             "ID" => $item->id_producto,
             "imagen" => $item->imagen,
             "subcategoria" => $item->subcategoria,
@@ -26,7 +23,16 @@
             "descripcion" => $item->descripcion,
             "precio_publico" => $item->precio_publico,          
         ];
-    };
-            // echo $data;
+    }
+
+    
     echo json_encode($data);
+
+
+
+
+
+
+
+
 ?>

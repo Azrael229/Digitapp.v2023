@@ -116,8 +116,36 @@ div{
     border: none;
     background: rgb(61, 200, 243);
     height: 30px;
-    align-items: center;
+    width: 90px;
+    align-items: center; 
     justify-content: space-around;
     cursor: pointer;
+    border-radius: 5px;
+}
+.cards a{
+    display: flex;
+}
+.botones{
+    background: rgb(255, 255, 255);
+    justify-content: space-between ;
+    
+}
+
+.tarjeta_producto{
+    padding: 10px;
+    display: flex;
+    /* flex-flow: row wrap; */
+    background: rgb(202, 202, 202);
+    box-shadow: 5px 5px 5px;   
+    border-radius: 5px;
+    
+}
+
+#detalle_producto{
+    padding: 10px;
+    display: flex;
+    /* flex-flow: row wrap; */
+    background: rgb(202, 202, 202);
+    box-shadow: 5px 5px 5px;   
     border-radius: 5px;
 }
