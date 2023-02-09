@@ -5,29 +5,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Productos</title>
-        <link rel="stylesheet" href="css/formulario_producto.css">
+        <link rel="stylesheet" href="css/tarjetas_productos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         
+        <?php include_once("1.Plantillas/barra_navegacion.php");?>
+
+        <?php include_once("1.Plantillas/header.php");?>
+
+
         
-
-        <nav>
-            <img class="logo" src="img/LogoMakr_4Pdzl8.png" alt="logo" />
-
-            <ul class="enlaces-menu">
-                <li><a href="">TEXTO</a></li>
-            </ul>
-        </nav>
-
-
-
-
-
-        <header class="header">
-            <h1>PRODUCTO NUEVO</h1>
-        </header>
-
-
 
 
 
@@ -36,22 +24,31 @@
 
 
 
+            <section class="tarjetas_productos"id="area_tarjetas_productos">
+                <div class="cards" id="nuevo" onclick=ir_formulario()>
+                    
+                    <div class="datos">
+                    <h2><i class="fa-solid fa-circle-plus"></i> NUEVO</h2>
+                    </div>
+                </div>
+            </section>
 
 
-            <aside class="aside"><br>
-               <hr>
-            </aside>
 
 
 
 
+            <section class="ver_producto" id="area_detalle_producto">
+            </section>
 
 
-            <section class="section">
+
+
+            <section class="formulario" id="area_formulario">
                 <form class="form" id="datosProductos" method="POST" enctype="multipart/form-data" >
  
 
-                   <div>
+                   <div class="div_form">
                         <h2>Categorias</h2><br><br>
                             <select name="categoria" id="categoria">
                                 <option value="0">categoria</option>
@@ -78,7 +75,7 @@
                    </div>
                     
                                   
-                    <div>
+                    <div class="div_form">
                         <h2>Datos del Producto</h2><br><br>
 
                             <label for="Producto">Nombre del Producto</label>
@@ -105,7 +102,7 @@
                     </div>
                     
                  
-                    <div>
+                    <div class="div_form">
                         <h2>Datos del Proveedor</h2><br><br>
 
                             <select name="proveedor" id="proveedor">
@@ -124,14 +121,14 @@
                                         
                             <select name="factor" id="factor">
                                 <option value="0">Factor</option>
-                                <option value="1.2">1.4</option>
-                                <option value="1.2">1.3</option>
-                                <option value="1.2">1.25</option>
-                                <option value="1.2">1.2</option>
+                                <option value="1.4">1.4</option>
+                                <option value="1.3">1.3</option>
+                                <option value="1.25">1.25</option>
+                                <option value="1.20">1.20</option>
                                 <option value="1.18">1.18</option>
                                 <option value="1.15">1.15</option>
                                 <option value="1.12">1.12</option>
-                                <option value="1.1">1.10</option>
+                                <option value="1.10">1.10</option>
                             </select><br>
                                                 
                             <label for="precioPublico">Precio al Publico sin IVA</label>
@@ -147,17 +144,47 @@
                
             </section>
 
+            <section class="Cotizacion" id="area_cotizacion">
+                <table class="tabla">
+
+                    <thead>
+                        <tr>
+
+                            <th>IMG</th>
+
+                            <th>Descripción</th>
+
+                            <th>Cantidad</th>
+
+                            <th>Precio Unitario</th>
+
+                        </tr>
+                    </thead>
+
+
+
+                    <tbody id="tbody">
+                        
+                    </tbody>  
             
+
+                </table><br>
+
+                <div  class="datos">
+                    <h3 id="Total">Total</h3> 
+                </div>
+            </section>
+
+
 
         </main>
 
 
 
-        <!-- <footer class="footer">
-
-        </footer> -->
 
 
-        <script src="js/formulario_producto.js"></script>
+        <script src="js/tarjetas_productos.js" ></script>
+        
+
     </body>
 </html>

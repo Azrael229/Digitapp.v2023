@@ -60,12 +60,23 @@ nav{
      box-shadow: 5px 5px 5px;   
 }
 
+
+
+/* ----------------------header------------------------ */
+#ico_flecha_regresar{
+    color: rgb(252, 252, 252);
+    font-size: 24px;
+}
+
 .header h1{
     color: rgb(252, 252, 252);
     font-size: 24px;
-
 }
 
+#ico_cotizacion{
+    
+    font-size: 20px;
+}
 
 .main{
     width: 85%;
@@ -74,19 +85,24 @@ nav{
     display:flex; 
 }
 
-
-.aside{
-    width: 30%;
-    display: flex;
-    flex-direction:column;
-    border-top: 1px solid chartreuse;
+#btn_cotizacion{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
 }
 
 
-.section{
-    width:70%;
+/* ----------------------header------------------------ */
+
+
+section{
+    width:1080px;
     display: flex;
     flex-flow: row wrap;
+    margin: auto;
+   
+
 }
 
 
@@ -94,7 +110,7 @@ div{
     /* border: 1px solid salmon; */
     display: flex;
     flex-flow: row wrap;
-    background: #cccccc;
+    /* background: #cccccc; */
 }
 .cards{
     padding: 10px;
@@ -105,6 +121,10 @@ div{
     margin: 10px;
     box-shadow: 5px 5px 5px;   
     border-radius: 5px;
+}
+#nuevo{
+    align-items: center;
+    justify-content: center;
 }
 .datos{
     background: rgb(255, 255, 255);
@@ -118,7 +138,7 @@ div{
     height: 30px;
     width: 90px;
     align-items: center; 
-    justify-content: space-around;
+    justify-content: center;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -132,20 +152,110 @@ div{
 }
 
 .tarjeta_producto{
+    width: 500px;
     padding: 10px;
     display: flex;
-    /* flex-flow: row wrap; */
-    background: rgb(202, 202, 202);
+    margin: 10px;
+    background: rgb(255, 255, 255);
     box-shadow: 5px 5px 5px;   
     border-radius: 5px;
     
 }
-
-#detalle_producto{
-    padding: 10px;
+.ver_producto{
     display: flex;
-    /* flex-flow: row wrap; */
-    background: rgb(202, 202, 202);
-    box-shadow: 5px 5px 5px;   
-    border-radius: 5px;
+    flex-flow: row wrap;
+}
+
+
+form{
+    font-size: 16px;
+    color: #d1cfcf5e;
+    display: flex;
+}
+
+textarea{
+    /* width: 30%; */
+    font-family: 'Roboto Condensed', sans-serif;
+    resize: none;
+    border-color: #00eaff;
+    /* border-radius: 5px; */
+    outline: none;
+    background:  rgba(5, 5, 5, 0.1); 
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.571);   
+}
+
+
+input{
+    
+    color: #e8e8e8b3;
+    border-color: #00eaff;
+    background:  rgba(5, 5, 5, 0.1); 
+    height: 30px;
+    font-size: 16px;
+   
+}
+
+input:focus{
+    outline: none;
+    background:  rgba(5, 5, 5, 0.1); 
+
+   
+}
+
+
+
+select{
+    border: none;
+    outline: none;
+    color: #151515;
+    display: block;
+    height: 30px;
+    font-size: 16px;
+
+
+}
+
+
+
+#imagen{
+    
+    display: none;
+}
+.div_form{
+    flex-direction: column;
+    margin: 20px;
+}
+
+.contenedor_btn{
+    justify-content: space-between;
+
+}
+
+.fa-solid{
+    font-size: 15px;
+}
+
+/* --------------------IDs secciones----------------- */
+#area_cotizacion{
+    display: none;
+}
+#area_detalle_producto{
+    display: none;
+}
+
+#area_formulario{
+    display: none;
+}
+
+
+/* --------------------IDs secciones----------------- */
+
+
+
+/* ----------Tabla-cotizacion------------ */
+table,th,td{
+    color: aliceblue;
+    border:solid 1px silver;
+    border-collapse: collapse;
 }

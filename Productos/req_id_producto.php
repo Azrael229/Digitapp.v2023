@@ -21,7 +21,9 @@
             "capacidad" => $item->capacidad,
             "resolucion" => $item->resolucion,
             "descripcion" => $item->descripcion,
-            "precio_publico" => $item->precio_publico,          
+            "precio_publico" => $item->precio_publico,
+            "nombre_prod" => $item->nombre_prod          
+
         ];
     }
 
