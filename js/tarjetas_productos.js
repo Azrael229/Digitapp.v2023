@@ -63,7 +63,7 @@ function pedir_producto(ID){
             
             <div class="tarjeta_producto" id="detalle_producto">
                 <div id="div_img_tarjeta_producto">
-                <img src="img/${item.imagen}" width="400" height="400" >
+                <img src="img/${item.imagen}" width="300" height="300" >
                 </div>
                 <div class="datos" id="div_datos_tarjeta_producto">
                     <h2>${item.subcategoria}</h2><br>
