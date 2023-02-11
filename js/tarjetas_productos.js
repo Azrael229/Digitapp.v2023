@@ -290,7 +290,7 @@ function totalCotizacion(){
         Total = Total + precio
         // console.log(Total);
     })
-    itemCotyTotal.innerHTML = `Total $ ${Total}`
+    itemCotyTotal.innerHTML = `$ ${Total}`
 }
 
 

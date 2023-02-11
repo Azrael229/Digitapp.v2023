@@ -145,18 +145,24 @@
             </section>
 
             <section class="Cotizacion" id="area_cotizacion">
+
+                <div>
+                    
+                </div>
+
+
                 <table class="tabla">
 
                     <thead>
                         <tr>
 
-                            <th width="15%">IMG</th>
+                            <th width="10%">IMG</th>
 
-                            <th width="55%">Descripción</th>
+                            <th width="75%">Descripción</th>
 
-                            <th width="15%">Cantidad</th>
+                            <th width="5%">Cantidad</th>
 
-                            <th width="15%">Precio Unitario</th>
+                            <th width="10%">Precio Unitario</th>
 
                         </tr>
                     </thead>
@@ -164,15 +170,45 @@
 
 
                     <tbody id="tbody">
-                    
+
+                        
                     </tbody>  
-            
+
+
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>SubTotal</td>
+                            <td id="Total"></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>IVA</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>ISR</td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Total</td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
                     
                 </table>
 
-                <div  id="total_cotizacion">
-                <h3 id="Total">Total</h3> 
-                </div>   
+                
             </section>
 
         
