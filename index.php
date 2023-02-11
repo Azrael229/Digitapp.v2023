@@ -147,7 +147,7 @@
             <section class="Cotizacion" id="area_cotizacion">
 
                 <div>
-                    
+
                 </div>
 
 
@@ -156,11 +156,11 @@
                     <thead>
                         <tr>
 
-                            <th width="10%">IMG</th>
+                            <th width="8%">IMG</th>
 
-                            <th width="75%">Descripción</th>
+                            <th width="80%">Descripción</th>
 
-                            <th width="5%">Cantidad</th>
+                            <th width="2%">Cant</th>
 
                             <th width="10%">Precio Unitario</th>
 
