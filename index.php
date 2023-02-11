@@ -221,10 +221,10 @@
 
         <script src="js/tarjetas_productos.js" ></script>
         
-
+        <?php include_once("1.Plantillas/footer.php");?>
     </body>
 
-    <?php include_once("1.Plantillas/footer.php");?>
+    
 
    
 </html>

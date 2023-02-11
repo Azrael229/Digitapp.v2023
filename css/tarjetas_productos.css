@@ -340,8 +340,10 @@ table,th,td{
 /* ---------------footer------------------------------------------ */
 
 footer{
+    padding: 30px;
     text-align: center;
     color: #525252;
+    margin: 30px;
 }
 
 
