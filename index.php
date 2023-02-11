@@ -146,8 +146,42 @@
 
             <section class="Cotizacion" id="area_cotizacion">
 
-                <div>
+                <div id="div_area_cot_cliente">
+                    
+                    <div id="div_datos_clientes_encabezado">
+                        <h2>DATOS DEL CLIENTE</h2>
+                    </div><hr>
 
+
+                    <div id="div_dat_cl_selects">
+                        <div class="divs_EMP_CONT">
+                            <H3>EMPRESA</H3>
+                            
+                            <select class="sels_cot_cliente" name="sel_empresa" id="sel_area_cot_empresa">
+                                <option value="0">Empresa</option>
+                                <option value="1">Metelix</option>
+                                <option value="2">Dicoisa</option>
+                                <option value="3">ProAlfa</option>
+                                <option value="4">Grupo Marssov</option>
+                                <option value="5">Tekfor</option>
+                                <option value="6">Bisquets Obregón</option>
+                                <option value="7">Ipisa</option>
+                                <option value="8">tRAFIMAR</option>
+                            </select>
+                        </div>
+
+                        <div class="divs_EMP_CONT">
+                            <H3>CONTACTO</H3>
+                            
+                            <select class="sels_cot_cliente" name="sel_cliete" id="sel_area_cot_cliente">
+                                <option value="0">Cliente</option>
+                                <option value="1">Publico en General</option>
+                                <option value="2">Fulanito</option>
+                                <option value="3">Sutanita</option>
+                                
+                            </select>
+                        </div>
+                    </div>
                 </div>
 
 
