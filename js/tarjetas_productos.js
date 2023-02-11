@@ -47,7 +47,7 @@ crearTarjetas();
 function pedir_producto(ID){
     
     document.getElementById("area_tarjetas_productos").style.display = "none";
-    document.getElementById("area_detalle_producto").style.display = "block";
+    document.getElementById("area_detalle_producto").style.display = "flex";
     
     // console.log(ID)
     var url_req_id_producto = "Productos/req_id_producto.php";
@@ -90,7 +90,9 @@ function pedir_producto(ID){
 
 function ir_formulario(){
     document.getElementById("area_tarjetas_productos").style.display = "none";
-    document.getElementById("area_formulario").style.display = "block";
+    document.getElementById("area_detalle_producto").style.display = "none";
+    document.getElementById("area_cotizacion").style.display = "none";
+    document.getElementById("area_formulario").style.display = "flex";
 };
 
 formulario.addEventListener("submit", function(e){ 
@@ -171,7 +173,7 @@ function eliminarReg(ID){
 function editarReg(ID){
     var urlEditarReg = "Productos/editarReg.php";
     document.getElementById("area_detalle_producto").style.display = "none";
-    document.getElementById("area_formulario").style.display = "block";
+    document.getElementById("area_formulario").style.display = "flex";
 
     fetch(urlEditarReg,{
         method: "POST",
@@ -296,8 +298,12 @@ function totalCotizacion(){
 
 btn_cotizacion.addEventListener("click", function(){
     
-    document.getElementById("area_cotizacion").style.display = "block";
+    document.getElementById("area_cotizacion").style.display = "flex";
     document.getElementById("area_tarjetas_productos").style.display = "none";
+    document.getElementById("area_detalle_producto").style.display = "none";
+    document.getElementById("area_formulario").style.display = "none";
+
+
     
 });
 

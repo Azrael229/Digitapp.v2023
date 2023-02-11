@@ -8,6 +8,25 @@ body{
     background-color:#121f3d;
 }
 
+section{
+    width:1080px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+   
+
+}
+
+
+div{
+    /* border: 1px solid salmon; */
+    display: flex;
+    flex-flow: row wrap;
+    /* background: #cccccc; */
+}
+
+
+/* (1)---------------barra_navegacion------------------------------------- */
 
 .logo{
     width: 200px;
@@ -48,11 +67,17 @@ nav{
 .enlaces-menu li:hover{
     background-color:#00c1c1cb;
 }
+/* ----------------------------------------------------------------- */
 
+
+
+
+
+/* (2)----------------------header------------------------ */
 .header{
     margin-bottom: 0.5%;
     /* width:1920px; */
-     height: 120px;
+     height: 80px;
      display: flex;
      align-items: center;
      justify-content: space-around;
@@ -61,21 +86,19 @@ nav{
 }
 
 
-
-/* ----------------------header------------------------ */
 #ico_flecha_regresar{
     color: rgb(252, 252, 252);
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .header h1{
     color: rgb(252, 252, 252);
-    font-size: 24px;
+    font-size: 18px;
 }
 
 #ico_cotizacion{
     
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .main{
@@ -90,34 +113,24 @@ nav{
     border-radius: 5px;
     padding: 10px;
     text-decoration: none;
+    width: 80px;
 }
 
 
-/* ----------------------header------------------------ */
+/* -------------------------------------------------------------- */
 
 
-section{
-    width:1080px;
-    display: flex;
-    flex-flow: row wrap;
-    margin: auto;
-   
-
-}
 
 
-div{
-    /* border: 1px solid salmon; */
-    display: flex;
-    flex-flow: row wrap;
-    /* background: #cccccc; */
-}
+
+/* (3)----------------------------tarjetas---------------------------------- */
+
 .cards{
     padding: 10px;
     flex-direction:column;
     background: rgb(255, 255, 255);
-    width:220px;
-    height: 350px;
+    width:230px;
+    height: 360px;
     margin: 10px;
     box-shadow: 5px 5px 5px;   
     border-radius: 5px;
@@ -150,6 +163,11 @@ div{
     justify-content: space-between ;
     
 }
+/* -------------------------------------------------------------- */
+
+
+
+/* (4)-----------------detalle de producto--------------------------------------------- */
 
 .tarjeta_producto{
     width: 500px;
@@ -165,6 +183,12 @@ div{
     display: flex;
     flex-flow: row wrap;
 }
+/* -------------------------------------------------------------- */
+
+
+
+
+/* (5)--------------------formulario------------------------------------------ */
 
 
 form{
@@ -212,11 +236,7 @@ select{
     display: block;
     height: 30px;
     font-size: 16px;
-
-
 }
-
-
 
 #imagen{
     
@@ -231,12 +251,19 @@ select{
     justify-content: space-between;
 
 }
+/* -------------------------------------------------------------- */
+
+
+
 
 .fa-solid{
-    font-size: 15px;
+    font-size: 12px;
 }
 
-/* --------------------IDs secciones----------------- */
+
+
+
+/* (6)--------------------IDs secciones---------------------------- */
 #area_cotizacion{
     display: none;
 }
@@ -249,13 +276,20 @@ select{
 }
 
 
-/* --------------------IDs secciones----------------- */
+/* ---------------------------------------------------------------- */
 
 
 
-/* ----------Tabla-cotizacion------------ */
+/* (7)----------Tabla-cotizacion------------ */
+
+
+
 table,th,td{
     color: aliceblue;
     border:solid 1px silver;
     border-collapse: collapse;
+    padding: 20px;
+    font-size: 12px;
 }
+
+/* ---------------------------------------------------------------- */

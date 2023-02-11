@@ -159,7 +159,7 @@
                             <th>Precio Unitario</th>
 
                         </tr>
-                    </thead>
+                    </thead><br>
 
 
 
@@ -168,7 +168,7 @@
                     </tbody>  
             
 
-                </table><br>
+                </table>
 
                 <div  class="datos">
                     <h3 id="Total">Total</h3> 
