@@ -173,7 +173,7 @@ nav{
     /* width: 500px; */
     /* padding: 20px; */
     display: flex;
-    /* flex-flow: row wrap; */
+    flex-flow: row wrap;
     margin: 10px;
     /* background: rgb(255, 255, 255); */
     /* box-shadow: 5px 5px 5px;   
