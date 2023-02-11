@@ -62,18 +62,18 @@ function pedir_producto(ID){
             ver_producto.innerHTML =`
             
             <div class="tarjeta_producto" id="detalle_producto">
-                <div>
-                <img src="img/${item.imagen}" width="500" height="500" >
+                <div id="div_img_tarjeta_producto">
+                <img src="img/${item.imagen}" width="400" height="400" >
                 </div>
-                <div class="datos"><hr><br><br>
-                    <h1>${item.subcategoria}</h1><br><br>
-                    <h2>Marca: ${item.marca}</h2><br>
-                    <h2>Modelo: ${item.modelo}</h2><br><br>
-                    <h2>Capacidad: ${item.capacidad}</h2><br>
-                    <h2>Resolución: ${item.resolucion}</h2><br><br>
-                    <h2>$ ${item.precio_publico}</h2><br><br>
-                    <h2>Descripción: ${item.descripcion}</h2><br><br>
-                    <hr><br><br>
+                <div class="datos" id="div_datos_tarjeta_producto">
+                    <h2>${item.subcategoria}</h2><br>
+                    <h3>Marca: ${item.marca}</h3><br>
+                    <h3>Modelo: ${item.modelo}</h3><br>
+                    <h3>Capacidad: ${item.capacidad}</h3><br>
+                    <h3>Resolución: ${item.resolucion}</h3><br>
+                    <h3>$ ${item.precio_publico}</h3><br><br>
+                    <h3>Descripción: ${item.descripcion}</h3><br>
+                    <hr><br>
                         <div class="contenedor_btn">       
                             <button id="btneliminar" class="btn_detalle" onclick=eliminarReg("${item.ID}")>Eliminar <i class="fa-solid fa-trash-can"></i></button>
                             <button id="btneditar" class="btn_detalle" onclick=editarReg("${item.ID}")>Editar <i class="fa-solid fa-pen-to-square"></i></button>

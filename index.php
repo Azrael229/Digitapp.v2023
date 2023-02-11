@@ -150,33 +150,33 @@
                     <thead>
                         <tr>
 
-                            <th>IMG</th>
+                            <th width="15%">IMG</th>
 
-                            <th>Descripción</th>
+                            <th width="55%">Descripción</th>
 
-                            <th>Cantidad</th>
+                            <th width="15%">Cantidad</th>
 
-                            <th>Precio Unitario</th>
+                            <th width="15%">Precio Unitario</th>
 
                         </tr>
-                    </thead><br>
+                    </thead>
 
 
 
                     <tbody id="tbody">
-                        
+                    
                     </tbody>  
             
-
+                    
                 </table>
 
-                <div  class="datos">
-                    <h3 id="Total">Total</h3> 
-                </div>
+                <div  id="total_cotizacion">
+                <h3 id="Total">Total</h3> 
+                </div>   
             </section>
 
-
-
+        
+        
         </main>
 
 
@@ -187,4 +187,8 @@
         
 
     </body>
+
+    <?php include_once("1.Plantillas/footer.php");?>
+
+   
 </html>
