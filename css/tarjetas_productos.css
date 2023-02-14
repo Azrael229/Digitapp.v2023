@@ -279,6 +279,35 @@ select{
     margin: 20px;
 }
 
+#area_formulario{
+    display: none;
+}
+/* (5-A)---formulario Clientes------------------------------------- */
+/* #section_form_clientes{
+    border: 1px solid  #ff0606;
+    padding: 20px;
+} */
+
+#form_datosClientes{
+    
+    border: 1px solid  #8d08fa;
+    padding: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 5px;
+    /* box-shadow: #00eaff; */
+    box-shadow: 5px 5px 5px #00eaff2c; 
+}
+#tit_dat_contacto{
+    color: aliceblue;
+}
+#tit_dat_empresa{
+    color: aliceblue;
+}
+.form_contenido{
+    margin: 15px;
+}
+
 
 /* -----------------iconos--------------------------------------------- */
 
@@ -298,9 +327,6 @@ select{
     display: none;
 }
 
-#area_formulario{
-    display: none;
-}
 
 
 /* ---------------------------------------------------------------- */
@@ -396,3 +422,6 @@ footer{
 
 
 /* ---------------------------------------------------------------- */
+
+
+

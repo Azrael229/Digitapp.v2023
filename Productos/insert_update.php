@@ -1,5 +1,7 @@
 <?php
 
+//  variables para productos---------------------------------------------------
+
 $id_producto = isset($_POST["id"]) ? $_POST["id"] : "";
 $producto = isset($_POST["Producto"]) ? $_POST["Producto"] : "";
 $marca = isset($_POST["Marca"]) ? $_POST["Marca"] : "";
@@ -21,12 +23,15 @@ $image_tmp = $_FILES["imagen"]["tmp_name"];
 $carpeta_destino = $_SERVER["DOCUMENT_ROOT"]."/Digitapp.v2023/img/";
 move_uploaded_file($_FILES["imagen"]["tmp_name"],$carpeta_destino.$image_name);
 
+//-----------------------------------------------------------------------
+// condicional para insertar o actualizr (editar) productos
 
 if($producto =="" || $descripcion =="" || $precioDist =="" || $proveedor =="" || $categoria =="" || $precioPublico ==""){
    
     echo json_encode("false");
 
-}else{
+}
+else{
 
     if(empty($_POST['id'])){
         require ("conexion.php");  
@@ -47,8 +52,37 @@ if($producto =="" || $descripcion =="" || $precioDist =="" || $proveedor =="" ||
         $pdo->bindParam(14, $act_precio);
         $pdo->execute() or die(print($pdo->errorInfo()));
 
-    echo json_encode("true");
+        echo json_encode("true");
 
     };
 };
+//------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------
+
+//  variables para Contactos
+
+$id_contacto = isset($_POST["id_contacto"]) ? $_POST["id_contacto"] : "";
+$nombre = isset($_POST["nombre"]) ? $_POST["nombre"] : "";
+$departamento = isset($_POST["departamento_contacto"]) ? $_POST["departamento_contacto"] : "";
+$telefono1 = isset($_POST["tel1_contacto"]) ? $_POST["tel1_contacto"] : "";
+$telefono2 = isset($_POST["tel2_contacto"]) ? $_POST["tel2_contacto"] : "";
+$email = isset($_POST["email_contacto"]) ? $_POST["email_contacto"] : "";
+$empresa = isset($_POST["empresa_contacto"]) ? $_POST["empresa_contacto"] : "";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
