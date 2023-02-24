@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded",() =>{
 
 
 function eliminarReg(ID){
-    var urlElimReg = "productos/elimReg.php";
+    var urlElimReg = "Productos/elimReg.php";
     let confirmado = confirm("Confirmar para elimiar definitivamente éste producto");
 
     if(confirmado){
