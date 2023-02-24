@@ -46,6 +46,7 @@
                         <option value="0">Empresa</option>
                         <option value="1">Dicoisa</option>
                         <option value="2">Metelix</option>
+                        <option value="3">PROALFA</option>
                         
                     </select>
 
@@ -53,10 +54,75 @@
                     
                     
                 </form>
-                  
-                        
-                
+                                                    
             </section>
+
+
+
+
+
+
+            <section class="formulario" id="section_form_empresa">
+
+                <form  class="form" id="form_datosEmpresa" method="POST" enctype="multipart/form-data">
+
+                    <div class="div_datos_empresa">
+
+                        <h2 class="form_contenido" id="tit_dat_empresa">DATOS DE EMPRESA</h2>
+
+                        <input class="form_contenido" type="text" id="nomb_empresa" name="nomb_empresa" placeholder="Nombre">
+
+                        <input class="form_contenido" type="text" id="email" name="email" placeholder="Correo @">
+
+                        <input class="form_contenido" type="text" id="telefono" name="telefono" placeholder="Telefono">
+
+                        <input class="form_contenido" type="text" id="razon_social" name="razon_social" placeholder="Razón Social">
+
+                        <input class="form_contenido" type="text" id="rfc" name="rfc" placeholder="RFC">  
+
+                        
+                        <textarea class="form_contenido" name="descripEmpresa" id="descripEmpresa" placeholder="Descripción" cols="25" rows="6"></textarea>
+
+                    </div>
+
+                    <div class="div_datos_empresa">
+
+                        <br>
+                        <h4 class="form_contenido" id="tit_dat_empresa">Dirección</h4>
+
+                        <input class="form_contenido" type="text" id="calle" name="calle" placeholder="Calle">
+
+                        <input class="form_contenido" type="text" id="numero" name="numero" placeholder="Numero">
+
+                        <input class="form_contenido" type="text" id="colonia" name="colonia" placeholder="Colonia">
+
+                        <input class="form_contenido" type="text" id="cp" name="cp" placeholder="C.P.">
+
+                        <input class="form_contenido" type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+
+                        <input class="form_contenido" type="text" id="estado" name="estado" placeholder="Estado">                          
+                        <button class="form_contenido" type="submit">GUARDAR</button>
+
+                    </div>
+
+                </form>
+
+            </section>
+
+
+
+            <section class="tarjetas_productos"id="area_tarjetas_productos">
+                <div class="cards" id="nuevo" onclick=ir_formulario()>
+                    
+                    <div class="datos">
+                    <h2><i class="fa-solid fa-circle-plus"></i> NUEVO</h2>
+                    </div>
+                </div>
+            </section>
+
+
+
+
 
                 
             
