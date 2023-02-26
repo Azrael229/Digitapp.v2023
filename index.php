@@ -12,7 +12,7 @@
         
         <?php include_once("1.Plantillas/barra_navegacion.php");?>
 
-        <?php include_once("1.Plantillas/header.php");?>
+        
 
 
         
@@ -22,7 +22,7 @@
 
         <main class="main">
 
-
+<!-- ------------------------ver tarjetas productos ------------>
 
             <section class="tarjetas_productos"id="area_tarjetas_productos">
                 <div class="cards" id="nuevo" onclick=ir_formulario()>
@@ -36,12 +36,14 @@
 
 
 
+<!-- ------------------------ver detalle productos ------------>
 
 
             <section class="ver_producto" id="area_detalle_producto">
             </section>
 
 
+<!-- ------------------------formulario nuevo producto ------------>
 
 
             <section class="formulario" id="area_formulario">
@@ -141,7 +143,8 @@
                 </form>
                 
                     
-               
+<!-- ------------------------area de ver cotizacion------------>
+
             </section>
 
             <section class="Cotizacion" id="area_cotizacion">

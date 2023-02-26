@@ -53,13 +53,14 @@ nav{
     flex-flow: row wrap;
     justify-content: space-around;
     background-color: rgb(31, 25, 40);
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
 
 .enlaces-menu{
     display: flex; 
+    flex-direction: column;
 }
 
 
@@ -97,8 +98,8 @@ nav{
     justify-content: space-around;
     background:#192e5d;
     box-shadow: 5px 5px 5px;   
-    position: fixed;
-    margin-top: 85px;
+    /* position: fixed;
+    margin-top: 85px; */
 }
 
 
