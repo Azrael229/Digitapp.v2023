@@ -148,16 +148,30 @@ nav{
     padding: 10px;
     flex-direction:column;
     background: rgb(255, 255, 255);
-    width:230px;
+    width:210px;
     height: 360px;
-    margin: 10px;
     box-shadow: 5px 5px 5px;   
     border-radius: 5px;
+    margin: 15px;
 }
 #nuevo{
     align-items: center;
     justify-content: center;
+    margin: 15px;
 }
+
+@media (max-width: 630px){
+    .cards{
+        margin:auto;
+        margin-bottom: 15px;
+    }
+    #nuevo{
+        margin:auto;
+        margin-bottom: 15px;
+
+    }
+}
+    
 
 #btnver{
     display: flex;
