@@ -39,9 +39,10 @@ div{
 }
 
 /* (1)---------------barra_navegacion------------------------------------- */
-/* .barra_navegacion{
+header{
+    width: 100%;
     position: fixed;
-} */
+}
 
 .logo{
     width: 200px;
