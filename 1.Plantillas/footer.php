@@ -1,5 +1,5 @@
     
     <footer>
-        <p>Digitapp.v2023.0.00.01</p> 
+        <p>Digitapp.v2023.0.00.02</p> 
     </footer>
    
