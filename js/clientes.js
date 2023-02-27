@@ -1,5 +1,6 @@
 var titulo_header = document.getElementById("titulo_header");
 var form_datosClientes = document.getElementById("form_datosClientes");  
+var btn_ico_menu = document.getElementById("ico_menu");
 
 
 titulo_header.innerHTML = "Clientes";
@@ -78,3 +79,15 @@ function crearTarjetasClientes(){
 crearTarjetasClientes();
 
 //----------------------------------------------------------
+
+
+
+
+
+btn_ico_menu.addEventListener("click", function(){
+
+
+    document.getElementById("enlaces-menu").style.display = "block";
+
+
+});

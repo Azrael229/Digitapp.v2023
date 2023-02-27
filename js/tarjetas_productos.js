@@ -7,6 +7,8 @@ var btn_cotizacion = document.getElementById("btn_cotizacion");
 var btn_ico_regresar = document.getElementById("ico_flecha_regresar");
 var tbody = document.getElementById("tbody");
 var contador = document.getElementById("span_contador");
+var btn_ico_menu = document.getElementById("ico_menu");
+
 
 function crearTarjetas(){
     
@@ -319,3 +321,8 @@ btn_ico_regresar.addEventListener("click", function(e){
 });
 
 
+btn_ico_menu.addEventListener("click", function(){
+
+    document.getElementById("enlaces-menu").style.display = "flex"
+        
+});

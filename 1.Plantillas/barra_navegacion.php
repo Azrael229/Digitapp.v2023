@@ -7,14 +7,14 @@
     <nav class="barra_navegacion">
         <img class="logo" src="img/LogoMakr_4Pdzl8.png" alt="logo" />
         
-        <ul class="enlaces-menu">
+        <ul class="enlaces-menu" id="enlaces-menu">
             
             <li><a href="clientes.php" id="btn_">CLIENTES</a></li>
             <li><a href="index.php">PRODUCTOS</a></li>
             
 
         </ul>
-        
+        <i class="fa-solid fa-bars" id="ico_menu"></i>
 
     </nav>
 
