@@ -10,6 +10,10 @@ var contador = document.getElementById("span_contador");
 var btn_ico_menu = document.getElementById("ico_menu");
 
 
+
+
+//--------------funcion para visualizar Tarjetas de productos incrementandolas automaticamnete 
+
 function crearTarjetas(){
     
     document.getElementById("area_detalle_producto").style.display = "none";
@@ -33,7 +37,9 @@ function crearTarjetas(){
                     <p>Modelo:${item.modelo}</p>
                     <p>Capacidad: ${item.capacidad}</p>
                     <p>Resolución: ${item.resolucion}</p>
-                    <p>$ ${item.precio_publico}</p>
+                    <p>Precio Distribuidor: $ ${item.precio_distribuidor}</p>
+                    <p>Precio Público: $ ${item.precio_publico}</p>
+                    
                 </div><br>
                 <div class="botones">       
                     <button id="btnver" onclick=addProductoToCotizar("${item.ID}")>Cotizar_<i class="fa-regular fa-file-lines"></i></button>
@@ -44,6 +50,8 @@ function crearTarjetas(){
     });
 };
 crearTarjetas();
+//------------------------------------------------------------------------------------------------------------
+
 
 
 function pedir_producto(ID){
@@ -73,7 +81,8 @@ function pedir_producto(ID){
                     <h3>Modelo: ${item.modelo}</h3><br>
                     <h3>Capacidad: ${item.capacidad}</h3><br>
                     <h3>Resolución: ${item.resolucion}</h3><br>
-                    <h3>$ ${item.precio_publico}</h3><br><br>
+                    <h3>Precio Distribuidor: $ ${item.precio_distribuidor}</h3><br>
+                    <h3>Precio Público: $ ${item.precio_publico}</h3><br><br>
                     <h3>Descripción: ${item.descripcion}</h3><br>
                     <hr><br>
                         <div class="contenedor_btn">       

@@ -22,7 +22,8 @@
             "resolucion" => $item->resolucion,
             "descripcion" => $item->descripcion,
             "precio_publico" => $item->precio_publico,
-            "nombre_prod" => $item->nombre_prod          
+            "nombre_prod" => $item->nombre_prod,
+            "precio_distribuidor" => $item->precio_distribuidor,         
 
         ];
     }

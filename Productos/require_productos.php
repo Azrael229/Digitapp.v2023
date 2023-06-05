@@ -25,6 +25,7 @@
             "resolucion" => $item->resolucion,
             "descripcion" => $item->descripcion,
             "precio_publico" => $item->precio_publico,          
+            "precio_distribuidor" => $item->precio_distribuidor,          
         ];
     };
             // echo $data;
